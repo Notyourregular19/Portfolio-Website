@@ -1,6 +1,10 @@
+html {
+    font-size: 20px;
+}
+
 .header{
-    background-color: #000000dc;
-    width: auto;
+    background-color: #2b7c86dc;
+    width: 100%;
     height: 10%;
     bottom: 0%;
     margin-top:0%;
@@ -12,14 +16,18 @@
 .header h1{
     
     text-align: left;
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-family: 'Caveat', cursive;
     font-weight: 700;
-    font-size: medium;
+    font-size: 1rem;
     color: white;
 }
-
+.header h1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
 body{
-    background-color: #ffffff;
+    background-color: #d8d5d5;
 }
 
 .mail-text{
@@ -36,9 +44,28 @@ p{
     text-align: center;
 }
 
+.navbar ul {
+  list-style: none;
+  margin: 1%;
+  padding: 0%;
+  display: inline-block;
+  font-size: small;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    padding-top: 0.9%;
+    background-color: #2b7c86dc;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
 .footer{
     color:rgb(255, 255, 255);
-    background-color: #000000dc;
+    background-color: #2b7c86dc;
     text-align: center;
     width: 100%;
     height: 10%;
@@ -57,5 +84,11 @@ p{
 .footer a{
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     font-size: small;
+    text-decoration: none;
     
+}
+
+.con-h2{
+    font-size: 1rem;
+    font-weight: lighter;
 }
