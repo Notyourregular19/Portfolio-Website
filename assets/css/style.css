@@ -4,7 +4,7 @@ html {
 
 .header{
     background-color: #2b7c86dc;
-    width: 100%;
+    width: auto;
     height: 10%;
     bottom: 0%;
     margin-top:0%;
@@ -41,22 +41,30 @@ p{
 }
 
 .body-style {
+    margin:10px;
+    margin-left: 6%;
+    width: 400px;
+    padding: 20px;
+    border: 2px ;
+    border-radius: 15px;
+    background-color: white;
     text-align: center;
 }
 .body-style p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 .body-style h2 {
     font-size: 4rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inconsolata', monospace;
+
 }
-.about-style p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    text-align: justify;
+
+.body-style img {
+    border-radius: 5px;
 }
+
 .about-style h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -76,7 +84,7 @@ p{
     padding: 10px;
     background-color: #2b7c86dc;
     text-align: center;
-    width: 100%;
+    width: auto;
 }
 
 .navbar a {
@@ -87,7 +95,7 @@ p{
     color:rgb(255, 255, 255);
     background-color: #2b7c86dc;
     text-align: center;
-    width: 100%;
+    width: auto;
     height: 10%;
     bottom: 0%;
     margin-top: 10px;
