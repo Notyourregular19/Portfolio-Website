@@ -1,17 +1,20 @@
 html {
     font-size: 10px;
 }
-
+main {
+    width: auto;
+}
 .header{
     
     background-color: #2b7c86dc;
-    width: 100%;
+    width: auto;
     height: 10%;
     bottom: 0%;
     margin-top:0%;
     margin-left: 0%;
     margin-right: 0%;
     padding: 1%;
+    clear: both;
 }
 
 .header a {
@@ -33,30 +36,37 @@ body{
     text-align:center;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-.inner-box {
-    margin:10px;
+
+.box {
+    margin-top: 10px;
     padding: 20px;
     border-radius: 15px;
     background-color: white;
-    text-align: center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
 }
-.inner-box p {
-    text-align: center;
+
+.box p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 2rem;
+    font-weight: lighter;
 }
-.inner-box h2 {
+
+.box h2 {
     font-size: 4rem;
     font-family: 'Inconsolata', monospace;
+    display:block;
+    text-align: center;
 
 }
 
-.inner-box img {
+.box img {
     border-radius: 5px;
+    float: left;
+    padding-right: 1%;
 }
 
 
@@ -68,35 +78,34 @@ p{
 
 .navbar {
     padding: 10px;
-    background-color: #2b7c86dc;
     text-align: center;
     width: 100%;
 }
 
 .navbar ul, a {
-  list-style: none;
+  list-style:none;
   display: inline-block;
-  font-size: 1rem;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
   color: white; 
-  text-decoration: none;
+  text-decoration: none ;
 }
-
-
 
 .footer{
     color:rgb(255, 255, 255);
     background-color: #2b7c86dc;
     text-align: center;
-    width: 100%;
+    width:auto;
     height: 10%;
     bottom: 0%;
     margin-top: 10px;
     padding: 1%;
+    clear: both;
 }
 
 .footer p {
     text-align: center;
+    display: inline-block;
     margin-top: 25px;
     font-size: small;
     font-family: sans-serif, Arial, Helvetica, sans-serif;
@@ -106,10 +115,15 @@ p{
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     font-size: small;
     text-decoration: none;
+    padding: 1%;
     
 }
 
 .con-h2{
     font-size: 1rem;
     font-weight: lighter;
+}
+
+h3{
+    display:inline-block
 }
