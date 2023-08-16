@@ -47,8 +47,8 @@ body{
     padding: 20px;
     border-radius: 15px;
     background-color: white;
-    width: 500px;
-    height: 500px;
+    width: auto;
+    height: auto;
     position: relative;
     display: inline-block;
 }
@@ -69,6 +69,8 @@ body{
 
 .box img {
     border-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     float: left;
     padding-right: 1%;
 }
